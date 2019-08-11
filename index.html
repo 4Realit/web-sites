@@ -6,7 +6,6 @@
     <title>Mozilla splash page</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <style>
-      /* header and body setup */
       html {
         font-family: 'Open Sans', sans-serif;
         background: url(pattern.png);
@@ -18,7 +17,6 @@
         background-color: white;
         position: relative;
       }
-      /* Header styling */
       header {
         height: 150px;
       }
@@ -33,7 +31,6 @@
         line-height: 140px;
         margin: 0 0 0 32.5px;
       }
-      /* main section and video styling */
       main {
         background: #ccc;
       }
@@ -51,7 +48,6 @@
         margin: 0 20px 20px 0;
         max-width: 100%;
       }
-      /* further info links */
       .further-info {
         clear: left;
         padding: 40px 0;
@@ -70,7 +66,6 @@
       .clearfix {
         clear: both;
       }
-      /* Red panda image */
       .red-panda img {
         display: block;
         max-width: 100%;
@@ -80,15 +75,11 @@
   <body>
     <header>
       <h1>Mozilla</h1>
-      <!-- insert <img> element, link to the small
-          version of the Firefox logo -->
 		  <img src="firefox_logo120.png" alt="Ofiget'">
-
     </header>
 
     <main>
       <article>
-        <!-- insert iframe from youtube -->
 		<iframe width="400" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <h2>Rocking the free web</h2>
@@ -99,7 +90,6 @@
       </article>
 
       <div class="further-info">
-        <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
           <img srcset="firefox_logo400.png 400w,
 		  firefox_logo120.png 120w"
@@ -130,7 +120,6 @@
       </div>
 
       <div class="red-panda">
-        <!-- insert picture element -->
 		<picture>
 		<source media="(max-width:599px)" srcset="red-panda600.jpg">
 		<source media="(mind-width:600px)" srcset="red-panda1200.jpg">
