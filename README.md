@@ -1,2 +1,2 @@
 # web-sites
-Created by 4Realit. It was created with aim to study HTML.
+That files were downloaded here with aim of education. You can check out sites on mobile phone and PC.The code is public.
